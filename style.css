@@ -1,0 +1,41 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	background-color:green;
+}
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+label {
+	font-size: 1.2rem;
+	margin-right: 1rem;
+}
+input[type="number"], select {
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+button {
+	font-size: 1.2rem;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #0069d9;
+}
+.result {
+	border: 1px solid #ccc;
+	padding: 1rem;
+	background-color:red;
+}
